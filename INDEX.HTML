@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    
+    <!--grid system de bootstrap es la estructura básica y se compone de 2 partes: grid (filas y columnas) y flexbox (alinea elementos)-->
+    <section class="container"> <!-- la seccion divide y la clase le da sangria desde el borde y lo centra, así no quedan tan al borde las letras-->
+        <div class="row"> <!-- la primera div corresponde a un renglon entero, dentro del cual puedo agregar hasta 12 columnas imaginarias.-->
+            <div class="col-3"><!--primera columna que ocupa 3 de las 12 imaginarias-->
+                <p>
+                    Hola
+                </p>
+
+            </div>
+            <div class="col-3"> <!-- segunda columna que ocupa 3 de las 12 imaginarias ya que estamos en la misma fila 12-4=8-->
+                <p>
+                    Sobre mí
+                </p>
+
+            </div>
+            <div class="col-3"> <!-- tercera columna que ocupa 3 de las 12 imaginarias ya que estamos en la misma fila 12-4=8-->
+                <p>
+                    Trabajos
+                </p>
+
+            </div>
+            <div class="col-3"> <!-- Recordar numero de elementos en fila dividido en 12
+                cuarta columna que ocupa 3 de las 12 imaginarias ya que estamos en la misma fila 12-4=8-->
+                <p>
+                    Contacto
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <div class="col">
+                <p>
+                    Breve introduccion haciendo referencia al HOLA.
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <div class = "row">
+            <p>
+                referencia sobre MI
+            </p>
+        </div>
+    </section>
+    <section class="container">
+        <div class = "row">
+            <p>
+                referencia sobre TRABAJOS
+            </p>
+        </div>
+    </section>
+    <section class="container">
+        <div class = "row">
+            <p>
+                referencia sobre CONTACTO (MAILTO, NOMBRE Y APELLIDO, CEL, MAIL Y CUERPO PARA MENSAJE)
+            </p>
+        </div>
+    </section>
+    <section class="container">
+        <div class="row">
+            <img src="firma neg.png" alt="firma carrusel">
+
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
